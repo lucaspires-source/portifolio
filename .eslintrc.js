@@ -18,5 +18,9 @@ module.exports = {
     'react',
   ],
   rules: {
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'import/prefer-default-export': 'off',
+    'linebreak-style': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
   },
 };
